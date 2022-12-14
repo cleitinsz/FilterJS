@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>FilterJS</title>
+  <script src="https://unpkg.com/phosphor-icons"></script>
+</head>
+<body>
+  <header>
+    <h1>Qual livro você está procurando?</h1>
+    <div class="input-wrapper">
+      <label for="filter" class="sr-only">Search</label>
+      <input id="filter" type="text" placeholder="Search">
+      <i class="ph-magnifying-glass"></i>
+    </div>
+  </header>
+  <div class="models">
+    <li>
+        <div class="header">
+          <i class="ph-books"></i>
+          <h2>--</h2>
+        </div>
+        <p>--</p>
+        <a href="#">Ver mais</a>
+    </li>
+  </div>
+  <main>
+    <ul class="cards"></ul>
+  </main>
+  <script src="livros.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
